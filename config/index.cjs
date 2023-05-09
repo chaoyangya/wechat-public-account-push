@@ -6,6 +6,12 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
+  
+  USE_PASSAGE: 'wechat-test',
+  
+  MAX_PUSH_ONE_MINUTE: 5,
+  // 配合MAX_PUSH_ONE_MINUTE使用，休眠<SLEEP_TIME>毫秒后再发送剩余消息，不填则默认为65000
+  SLEEP_TIME: 65000,
 
   // 使用微信测试号：公众号APP_ID
   APP_ID: '',
