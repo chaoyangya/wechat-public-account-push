@@ -26,7 +26,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '小袁同学',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o4PF-6VoxoOEXha9QlFCVKHEuYZc',
+      id: "o4PF-6VoxoOEXha9QlFCVKHEuYZc",
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'lJkRT0A1VoScOknBKYUimGpqlmIIg8UkwRQzLzGR8Nk',
       PROVINCE: '上海',
@@ -62,7 +62,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '小王同学',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o4PF-6QqTrEYesPjb5kWmRdUxflk',
+      id: "o4PF-6QqTrEYesPjb5kWmRdUxflk",
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'lJkRT0A1VoScOknBKYUimGpqlmIIg8UkwRQzLzGR8Nk',
       PROVINCE: '北京',
