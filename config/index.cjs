@@ -8,10 +8,10 @@
 const USER_CONFIG = {
 
     // 使用微信测试号：公众号APP_ID
-    APP_ID: 'wx73c9b3d8f3648699',
+    APP_ID: '',
 
     // 使用微信测试号：公众号APP_SECRET
-    APP_SECRET: '516ad0266bb3dfca634f02d5596b74a0',
+    APP_SECRET: '',
 
     PROVINCE: '山西',
     CITY: '忻州',
@@ -46,9 +46,9 @@ const USER_CONFIG = {
             // 想要发送的人的名字
             name: '小王同学',
             // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-            id: 'o4PF-6QqTrEYesPjb5kWmRdUxflk',
+            id: 'o4PF-6b4U8mJkb_Zavqu9pX87VxI',
             // 使用微信测试号：你想对他发送的模板消息的模板ID
-            useTemplateId: 'lJkRT0A1VoScOknBKYUimGpqlmIIg8UkwRQzLzGR8Nk',
+            useTemplateId: 'Mtc4oCFadDm-6O0bv8xK9lxc6Q5qeLHUX-NdcUaxS5E',
             // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
             horoscopeDate: '01-29',
             festivals: [
