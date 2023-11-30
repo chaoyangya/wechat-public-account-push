@@ -12,6 +12,30 @@ const USER_CONFIG = {
 
     // 使用微信测试号：公众号APP_SECRET
     APP_SECRET: '',
+    MAX_PUSH_ONE_MINUTE: 5,
+    // 配合MAX_PUSH_ONE_MINUTE使用，休眠<SLEEP_TIME>毫秒后再发送剩余消息，不填则默认为65000
+    SLEEP_TIME: 65000,
+    
+    TIAN_API: {
+    // 天行API KEY，如果使用天行API则需要填写此项
+    key: 'e244bd8d287ba48b075a46beff7e05d0',
+    
+    /** 天行API相关，需要config中配置 TIAN_API_KEY  */
+    // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    morningGreeting: false,
+  
+    // 晚安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    eveningGreeting: false,
+  
+    // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: 2,
+  
+    // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
+    networkHot: 6,
+  
+    // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
+    networkHotType: 'title',
+  },
 
     USERS: [
         {
@@ -20,9 +44,9 @@ const USER_CONFIG = {
             // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
             id: 'o4PF-6VoxoOEXha9QlFCVKHEuYZc',
             // 使用微信测试号：你想对他发送的模板消息的模板ID
-            useTemplateId: 'zKivGkJe1kadFngiWeoO8GsNBqcfksFXqPaXVdtAt5Q',
-            PROVINCE: '上海',
-            CITY: '上海',
+            useTemplateId: 'TOZwI-0YX2LWeaFBZNPcd3t9wjUPYL5MMNJoDRwQeaI',
+            province: '上海',
+            city: '上海',
             // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
             horoscopeDate: '10-07',
             festivals: [
@@ -39,6 +63,8 @@ const USER_CONFIG = {
                 {keyword: 'suremarry_day', date: '2022-10-03'},
                 // 结婚纪念日
                 {keyword: 'marry_day', date: '2023-02-20'},
+                // 婚礼纪念日
+                {keyword: 'ok_day', date: '2023-11-09'},
             ],
         },
         {
@@ -47,15 +73,15 @@ const USER_CONFIG = {
             // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
             id: 'o4PF-6QqTrEYesPjb5kWmRdUxflk',
             // 使用微信测试号：你想对他发送的模板消息的模板ID
-            useTemplateId: 'zKivGkJe1kadFngiWeoO8GsNBqcfksFXqPaXVdtAt5Q',
-            PROVINCE: '北京',
-            CITY: '北京',
+            useTemplateId: 'TOZwI-0YX2LWeaFBZNPcd3t9wjUPYL5MMNJoDRwQeaI',
+            province: '北京',
+            city: '北京',
             // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
             horoscopeDate: '01-29',
             festivals: [
                 // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
                 {
-                    type: '生日', name: '小袁同学', year: '2023', date: '11-19',
+                    type: '生日', name: '小袁同学', year: '2024', date: '11-07',
                 },
             ],
             // 我们在一起已经有xxxx天了的配置
@@ -66,6 +92,8 @@ const USER_CONFIG = {
                 {keyword: 'suremarry_day', date: '2022-10-03'},
                 // 结婚纪念日
                 {keyword: 'marry_day', date: '2023-02-20'},
+                // 婚礼纪念日
+                {keyword: 'ok_day', date: '2023-11-09'},
             ],
         },
     ],
