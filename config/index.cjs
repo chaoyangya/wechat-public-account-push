@@ -83,7 +83,7 @@ const USER_CONFIG = {
             // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
             id: 'o4PF-6VoxoOEXha9QlFCVKHEuYZc',
             // 使用微信测试号：你想对他发送的模板消息的模板ID
-            useTemplateId: '6coyt9hGdTISIMOHKIbIvfsMbWNxmJ8b7J8tx1OWSXA',
+            useTemplateId: 'j1WOwPZ34TVZ6gIdmwDYGocmC-CqQ2X9WHQX9HP21nY',
             province: '上海',
             city: '上海',
             // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -112,7 +112,7 @@ const USER_CONFIG = {
             // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
             id: 'o4PF-6QqTrEYesPjb5kWmRdUxflk',
             // 使用微信测试号：你想对他发送的模板消息的模板ID
-            useTemplateId: '6coyt9hGdTISIMOHKIbIvfsMbWNxmJ8b7J8tx1OWSXA',
+            useTemplateId: 'j1WOwPZ34TVZ6gIdmwDYGocmC-CqQ2X9WHQX9HP21nY',
             province: '北京',
             city: '北京',
             // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
