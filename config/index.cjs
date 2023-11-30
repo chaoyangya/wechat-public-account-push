@@ -70,10 +70,10 @@ const USER_CONFIG = {
     weather: 2,
   
     // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
-    networkHot: 6,
+    networkHot: 30,
   
     // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
-    networkHotType: 'title',
+    networkHotType: 'default',
   },
 
     USERS: [
@@ -83,7 +83,7 @@ const USER_CONFIG = {
             // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
             id: 'o4PF-6VoxoOEXha9QlFCVKHEuYZc',
             // 使用微信测试号：你想对他发送的模板消息的模板ID
-            useTemplateId: 'j1WOwPZ34TVZ6gIdmwDYGocmC-CqQ2X9WHQX9HP21nY',
+            useTemplateId: '189KWbGu1BINWkyptw1RwcuAnAPTFq531nFAsCLZyF0',
             province: '上海',
             city: '上海',
             // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -112,7 +112,7 @@ const USER_CONFIG = {
             // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
             id: 'o4PF-6QqTrEYesPjb5kWmRdUxflk',
             // 使用微信测试号：你想对他发送的模板消息的模板ID
-            useTemplateId: 'j1WOwPZ34TVZ6gIdmwDYGocmC-CqQ2X9WHQX9HP21nY',
+            useTemplateId: '189KWbGu1BINWkyptw1RwcuAnAPTFq531nFAsCLZyF0',
             province: '北京',
             city: '北京',
             // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
