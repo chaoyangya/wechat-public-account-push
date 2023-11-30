@@ -12,9 +12,48 @@ const USER_CONFIG = {
 
     // 使用微信测试号：公众号APP_SECRET
     APP_SECRET: '',
-    MAX_PUSH_ONE_MINUTE: 5,
-    // 配合MAX_PUSH_ONE_MINUTE使用，休眠<SLEEP_TIME>毫秒后再发送剩余消息，不填则默认为65000
-    SLEEP_TIME: 65000,
+
+    SWITCH: {
+    /** 每日天气 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: true,
+
+    /** 节假日 */
+    // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    holidaytts: true,
+
+    /** 每日N句 */
+    // 金山每日一句, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    CIBA: true,
+    
+    // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    oneTalk: true,
+    
+    // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    earthyLoveWords: true,
+    
+    // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    momentCopyrighting: false,
+    
+    // 毒鸡汤, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    poisonChickenSoup: false,
+    
+    // 古诗古文, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    poetry: false,
+
+    /** 星座运势 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    horoscope: false,
+  
+    /** 生日消息和节日消息 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    birthdayMessage: true,
+  
+    /** 学生课表 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    courseSchedule: false,
+  },
+  
     
     TIAN_API: {
     // 天行API KEY，如果使用天行API则需要填写此项
@@ -44,7 +83,7 @@ const USER_CONFIG = {
             // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
             id: 'o4PF-6VoxoOEXha9QlFCVKHEuYZc',
             // 使用微信测试号：你想对他发送的模板消息的模板ID
-            useTemplateId: 'TOZwI-0YX2LWeaFBZNPcd3t9wjUPYL5MMNJoDRwQeaI',
+            useTemplateId: '1HZgznJb-A7rtoAvmCPB-hpIVJeT2zpt4an753hAp-E',
             province: '上海',
             city: '上海',
             // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -64,7 +103,7 @@ const USER_CONFIG = {
                 // 结婚纪念日
                 {keyword: 'marry_day', date: '2023-02-20'},
                 // 婚礼纪念日
-                {keyword: 'ok_day', date: '2023-11-09'},
+                {keyword: 'ex_day', date: '2023-11-09'},
             ],
         },
         {
@@ -73,7 +112,7 @@ const USER_CONFIG = {
             // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
             id: 'o4PF-6QqTrEYesPjb5kWmRdUxflk',
             // 使用微信测试号：你想对他发送的模板消息的模板ID
-            useTemplateId: 'TOZwI-0YX2LWeaFBZNPcd3t9wjUPYL5MMNJoDRwQeaI',
+            useTemplateId: '1HZgznJb-A7rtoAvmCPB-hpIVJeT2zpt4an753hAp-E',
             province: '北京',
             city: '北京',
             // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -93,7 +132,7 @@ const USER_CONFIG = {
                 // 结婚纪念日
                 {keyword: 'marry_day', date: '2023-02-20'},
                 // 婚礼纪念日
-                {keyword: 'ok_day', date: '2023-11-09'},
+                {keyword: 'ex_day', date: '2023-11-09'},
             ],
         },
     ],
