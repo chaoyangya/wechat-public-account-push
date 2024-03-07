@@ -113,8 +113,8 @@ const USER_CONFIG = {
             id: 'o4PF-6QqTrEYesPjb5kWmRdUxflk',
             // 使用微信测试号：你想对他发送的模板消息的模板ID
             useTemplateId: 'a43RqJTRsqXlz1ctkZAbqqMwj2tBfjPoGjmr_NDhXm0',
-            province: '北京',
-            city: '北京',
+            province: '浙江',
+            city: '杭州',
             // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
             horoscopeDate: '01-29',
             festivals: [
